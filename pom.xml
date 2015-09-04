@@ -13,6 +13,7 @@
 
   <modules>
     <module>quickstart</module>
+    <module>embedded-persistence-manager</module>
   </modules>
 
 </project>
