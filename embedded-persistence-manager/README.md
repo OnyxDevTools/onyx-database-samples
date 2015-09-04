@@ -1,5 +1,4 @@
-# quickstart
-# quickstart
+# embedded-persistence-manager
 
 This project was created as a suplemental resource for this tutorial: [onyx database embedded database tutorial](http://onyxdevtools.com/learn/tutorials/1/embedded-persistence-manager) 
 
