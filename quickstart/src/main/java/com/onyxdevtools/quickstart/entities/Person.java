@@ -1,13 +1,13 @@
 
 package com.onyxdevtools.quickstart.entities;
 
-import com.onyx.persistence.IPersistedEntity;
+import com.onyx.persistence.ManagedEntity;
 import com.onyx.persistence.annotations.*;
 
 import java.util.Date;
 
 @Entity
-public class Person implements IPersistedEntity
+public class Person extends ManagedEntity
 {
 
     @Identifier

@@ -2,9 +2,11 @@ package com.onyxdevtools.quickstart;
 
 import com.onyx.exception.EntityException;
 import com.onyx.exception.InitializationException;
-import com.onyx.persistence.PersistenceManager;
-import com.onyx.persistence.impl.CacheManagerFactory;
+import com.onyx.persistence.factory.impl.CacheManagerFactory;
+import com.onyx.persistence.manager.PersistenceManager;
 import com.onyx.persistence.query.Query;
+import com.onyx.persistence.query.QueryCriteria;
+import com.onyx.persistence.query.QueryCriteriaOperator;
 import com.onyxdevtools.quickstart.entities.Person;
 import java.util.List;
 
@@ -28,12 +30,13 @@ public class Main
         manager.saveEntity(person1);
 
         //Execute a query to see your entity in the collection
-        Query query = new Query(Person.class);
+        QueryCriteria criteria = new QueryCriteria("firstName", QueryCriteriaOperator.EQUAL, "Michael");
+        Query query = new Query(Person.class, criteria);
         query.setMaxResults(20);
         List<Person> people = manager.executeQuery(query);
         
         //There should be 1 person in the list named "Michael Jordan"
-        System.out.println("people count: " + people.size());
+        System.out.println("records returned: " + people.size());
         System.out.println("first person in the list: " + people.get(0).getFirstName() + " " + people.get(0).getLastName());
 
     }
