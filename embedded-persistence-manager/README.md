@@ -1,13 +1,14 @@
 # quickstart
+# quickstart
 
-The projects found int this directory were created as a suplemental resources for this tutorial found here: [onyx database tutorials](http://onyxdevtools.com/learn/tutorials) 
+This project was created as a suplemental resource for this tutorial: [onyx database embedded database tutorial](http://onyxdevtools.com/learn/tutorials/1/embedded-persistence-manager) 
 
 ***How To Install:*** <br />
-From the one of the projects root folder simply run this command:
+From the embedded-persistence-manager root directory simply run this command:
 
        mvn install       
 
 ***How To Run:*** <br />
-Then to start run the app, execute this command:
+From the embedded-persistence-manager root directory simply run this command:
 
        mvn exec:java
