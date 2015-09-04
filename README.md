@@ -1,6 +1,6 @@
 # onyx-database-samples
 
-For tutorials and detailed documentation go to: [onyx database quickstart](http://onyxdevtools.com/learn/getting-started) 
+For tutorials and detailed documentation go to: [onyx database tutorialst](http://onyxdevtools.com/learn/tutorials) 
 
 ***How To Install:*** <br />
 Go to the root directory of the project you wish to build and simply run this command:
