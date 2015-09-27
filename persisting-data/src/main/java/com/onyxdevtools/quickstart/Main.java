@@ -11,6 +11,7 @@ public class Main
     {
 
         PersistingDataExample.main(args);
+        BatchSavingDataExample.main(args);
 
     }
 }
