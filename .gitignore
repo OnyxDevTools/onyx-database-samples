@@ -1,3 +1,6 @@
 /quickstart/target/
 /quickstart copy/target/
 /embedded-persistence-manager/target/
+/embedded-persistence-manager copy/target/
+/persisting/target/
+/persisting-data/target/
