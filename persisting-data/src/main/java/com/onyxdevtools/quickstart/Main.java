@@ -10,8 +10,10 @@ public class Main
     public static void main(String[] args) throws InitializationException, EntityException, IOException
     {
 
-        PersistingDataExample.main(args);
+        SavingAnEntityExample.main(args);
         BatchSavingDataExample.main(args);
+        
+        DeletingAnEntityExample.main(args);
 
     }
 }

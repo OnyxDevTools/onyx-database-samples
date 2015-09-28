@@ -16,7 +16,7 @@ import java.util.Date;
  *
  * @author cosborn
  */
-public class PersistingDataExample
+public class SavingAnEntityExample
 {
 
     public static void main(String[] args) throws InitializationException, EntityException, IOException
