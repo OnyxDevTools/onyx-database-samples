@@ -14,6 +14,7 @@
   <modules>
     <module>quickstart</module>
     <module>embedded-persistence-manager</module>
+    <module>persisting-data</module>
   </modules>
 
 </project>

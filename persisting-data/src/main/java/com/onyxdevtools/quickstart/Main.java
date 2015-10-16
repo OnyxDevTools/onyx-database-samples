@@ -14,6 +14,7 @@ public class Main
         BatchSavingDataExample.main(args);
         
         DeletingAnEntityExample.main(args);
+        BatchDeletingDataExample.main(args);
 
     }
 }

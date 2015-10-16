@@ -53,6 +53,14 @@ public class BatchDeletingDataExample
         
         System.out.println(savedNumbers.size() + " random numbers saved");
         
+        manager.deleteEntities(savedNumbers);
+        
+        Query query2 = new Query();
+        query2.setEntityType(RandomNumber.class);
+        List<RandomNumber> emptyList = manager.executeQuery(query2);
+        
+        System.out.println(emptyList.size() + " random numbers exist after deletion");
+        
         factory.close(); //Close the embedded database after you're done with it
         
     }
