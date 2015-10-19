@@ -4,3 +4,9 @@
 /embedded-persistence-manager copy/target/
 /persisting/target/
 /persisting-data/target/
+/embedded-persistence-manager copy 2/target/
+/caching-persistence-manager/target/
+/remote-persistence-manager/target/
+/restful-web-persistence-manager/target/
+/caching-manager/target/
+/cache-manager/target/
