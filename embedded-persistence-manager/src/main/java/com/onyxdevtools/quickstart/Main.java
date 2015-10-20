@@ -21,7 +21,7 @@ public class Main
 
         PersistenceManagerFactory factory = new EmbeddedPersistenceManagerFactory(); //1
         
-        factory.setCredentials("username", "password"); //2
+        factory.setCredentials("onyx-remote", "SavingDataisFun!"); //2
         
         String pathToOnyxDB = System.getProperty("user.home") 
                             + File.separatorChar + ".onyxdb" 
