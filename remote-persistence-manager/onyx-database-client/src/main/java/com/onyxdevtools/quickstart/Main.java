@@ -2,8 +2,6 @@ package com.onyxdevtools.quickstart;
 
 import com.onyx.exception.EntityException;
 import com.onyx.exception.InitializationException;
-import com.onyx.persistence.context.SchemaContext;
-import com.onyx.persistence.context.impl.RemoteSchemaContext;
 import com.onyx.persistence.factory.PersistenceManagerFactory;
 import com.onyx.persistence.factory.impl.RemotePersistenceManagerFactory;
 import com.onyx.persistence.manager.PersistenceManager;
