@@ -24,7 +24,7 @@ public class Main
                             + File.separatorChar + "sandbox" 
                             + File.separatorChar +"remote-db.oxd";
         
-        server1.setCredentials("onyx-remote", "SavingDataIsFun!"); //2
+        server1.setCredentials("onyx-remote", "SavingDataIsFun!");
 
         server1.setDatabaseLocation(pathToOnyxDB);
         server1.start();
