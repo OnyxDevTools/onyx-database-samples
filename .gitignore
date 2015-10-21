@@ -11,3 +11,5 @@
 /caching-manager/target/
 /cache-manager/target/
 /remote-persistence-manager/onyx-database-server/target/
+.idea
+*.iml
