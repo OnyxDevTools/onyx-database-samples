@@ -18,6 +18,7 @@
     <module>remote-persistence-manager</module>
     <module>restful-web-persistence-manager</module>
     <module>persisting-data</module>
+    <module>relationships</module>
   </modules>
 
 </project>
