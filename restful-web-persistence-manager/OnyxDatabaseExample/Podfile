@@ -1,0 +1,10 @@
+platform :ios, '8.0'
+
+inhibit_all_warnings!
+
+workspace 'OnyxDatabaseExample'
+xcodeproj 'OnyxDatabaseExample'
+link_with 'OnyxDatabaseExample', 'OnyxDatabaseExampleTests', 'OnyxDatabaseExampleUITests'
+
+pod 'OnyxClient', :path => 'Pods/onyx-database-client-cocoapod'
+pod 'SVProgressHUD', :head

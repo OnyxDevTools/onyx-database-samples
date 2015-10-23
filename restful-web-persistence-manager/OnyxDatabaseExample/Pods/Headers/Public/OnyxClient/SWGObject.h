@@ -1,0 +1,1 @@
+../../../onyx-database-client-cocoapod/OnyxClient/SWGObject.h
