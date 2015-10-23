@@ -1,9 +1,0 @@
-platform :ios, '8.0'
-
-inhibit_all_warnings!
-
-xcodeproj 'OnyxObjCSample'
-link_with 'OnyxObjCSample', 'OnyxObjCSampleTests', 'OnyxObjCSampleUITests'
-
-pod 'OnyxClient', :path => 'Pods/onyx'
-pod 'SVProgressHUD', :head
