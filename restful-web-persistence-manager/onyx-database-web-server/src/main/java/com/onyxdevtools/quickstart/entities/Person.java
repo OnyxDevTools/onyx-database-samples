@@ -1,4 +1,3 @@
-
 package com.onyxdevtools.quickstart.entities;
 
 import com.onyx.persistence.ManagedEntity;

@@ -13,3 +13,5 @@
 /remote-persistence-manager/onyx-database-server/target/
 .idea
 *.iml
+/restful-web-persistence-manager/onyx-web-server/target/
+/restful-web-persistence-manager/onyx-database-web-server/target/
