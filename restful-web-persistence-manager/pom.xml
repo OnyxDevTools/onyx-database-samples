@@ -12,7 +12,7 @@
     <name>restful-web-persistence-manager</name>
     
     <modules>
-        <module>onyx-database-web-server</module>
+        <module>onyx-restful-server</module>
     </modules>
     
 </project>

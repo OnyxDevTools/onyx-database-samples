@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     
     <groupId>com.onyxdevtools.samples</groupId>
-    <artifactId>onyx-database-web-server</artifactId>
+    <artifactId>onyx-restful-server</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
     
-    <name>onyx-database-web-server</name>
+    <name>onyx-restful-server</name>
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -30,8 +30,14 @@
         
         <dependency>
             <groupId>com.onyxdevtools</groupId>
-            <artifactId>onyx-web-database</artifactId>
+            <artifactId>onyx-remote-database</artifactId>
             <version>${onyx-database.version}</version>
+        </dependency>
+        
+         <dependency>
+            <groupId>com.onyxdevtools.samples</groupId>
+            <artifactId>data-model</artifactId>
+            <version>${project.version}</version>
         </dependency>
         
     </dependencies>
@@ -49,7 +55,7 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.onyxdevtools.quickstart.SampleServer</mainClass>
+                    <mainClass>com.onyxdevtools.quickstart.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>
