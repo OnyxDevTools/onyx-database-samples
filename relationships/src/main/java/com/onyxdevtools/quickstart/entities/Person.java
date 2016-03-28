@@ -1,4 +1,3 @@
-
 package com.onyxdevtools.quickstart.entities;
 
 import com.onyx.persistence.ManagedEntity;
@@ -26,54 +25,43 @@ public class Person extends ManagedEntity
     @Attribute
     public String lastName;
 
-    public String getId()
-    {
+    public String getId() {
         return id;
     }
 
-    public void setId(String id)
-    {
+    public void setId(String id) {
         this.id = id;
     }
 
-    public Date getDateCreated()
-    {
+    public Date getDateCreated() {
         return dateCreated;
     }
 
-    public void setDateCreated(Date dateCreated)
-    {
+    public void setDateCreated(Date dateCreated) {
         this.dateCreated = dateCreated;
     }
 
-    public Date getDateUpdated()
-    {
+    public Date getDateUpdated() {
         return dateUpdated;
     }
 
-    public void setDateUpdated(Date dateUpdated)
-    {
+    public void setDateUpdated(Date dateUpdated) {
         this.dateUpdated = dateUpdated;
     }
 
-    public String getFirstName()
-    {
+    public String getFirstName() {
         return firstName;
     }
 
-    public void setFirstName(String firstName)
-    {
+    public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
-    public String getLastName()
-    {
+    public String getLastName() {
         return lastName;
     }
 
-    public void setLastName(String lastName)
-    {
+    public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-
 }
