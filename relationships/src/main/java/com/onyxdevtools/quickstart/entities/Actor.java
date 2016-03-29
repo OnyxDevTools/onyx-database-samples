@@ -11,7 +11,7 @@ import java.util.List;
 @Entity
 public class Actor extends Person implements IManagedEntity
 {
-    @Identifier
+    @Identifier(generator = IdentifierGenerator.SEQUENCE)
     @Attribute
     public int actorId;
 
