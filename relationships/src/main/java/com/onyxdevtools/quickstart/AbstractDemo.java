@@ -21,6 +21,20 @@ public abstract class AbstractDemo {
     }
 
     /**
+     * Helper method to verify an the object is null
+     *
+     * @param message Message displayed if the object is null
+     * @param nonNullObject Object to assert
+     */
+    public static void assertNull(String message, Object nonNullObject)
+    {
+        if(nonNullObject != null)
+        {
+            System.err.println(message);
+        }
+    }
+
+    /**
      * Helper method to verify 2 objects have the same value
      *
      * @param message Message to display if the assert fails
@@ -39,6 +53,19 @@ public abstract class AbstractDemo {
         }
 
         System.err.println(message);
+    }
+
+    /**
+     * Helper method to assert a boolean
+     * @param message Message to show if assert fails
+     * @param operator boolean to assert
+     */
+    public static void assertTrue(String message, boolean operator)
+    {
+        if(!operator)
+        {
+            System.err.println(message);
+        }
     }
 
     /**

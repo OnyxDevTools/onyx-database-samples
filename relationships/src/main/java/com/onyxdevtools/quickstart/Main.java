@@ -14,5 +14,7 @@ public class Main
         CascadeDeferExample.demo();
         CascadeAllExample.demo();
         CascadeSaveExample.demo();
+
+        FetchPolicyExample.demo();
     }
 }

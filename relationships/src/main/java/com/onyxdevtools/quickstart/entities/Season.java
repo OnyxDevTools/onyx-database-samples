@@ -49,6 +49,7 @@ public class Season extends ManagedEntity implements IManagedEntity
     @Relationship(type = RelationshipType.ONE_TO_MANY,
                   cascadePolicy = CascadePolicy.SAVE,
                   inverse = "season",
-                  inverseClass = Episode.class)
+                  inverseClass = Episode.class,
+                  fetchPolicy = FetchPolicy.LAZY)
     public List<Episode> episodes;
 }
