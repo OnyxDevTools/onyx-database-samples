@@ -1,18 +1,12 @@
-/quickstart/target/
-/quickstart copy/target/
-/embedded-persistence-manager/target/
-/embedded-persistence-manager copy/target/
-/persisting/target/
-/persisting-data/target/
-/embedded-persistence-manager copy 2/target/
-/caching-persistence-manager/target/
-/remote-persistence-manager/target/
-/restful-web-persistence-manager/target/
-/caching-manager/target/
 /cache-manager/target/
+/embedded-persistence-manager/target/
+/persisting-data/target/
+/quickstart/target/
+/relationships/target/
+/remote-persistence-manager/data-model/target/
+/remote-persistence-manager/onyx-database-client/target/
 /remote-persistence-manager/onyx-database-server/target/
+/restful-web-persistence-manager/onyx-restful-server/target/
 .idea
 *.iml
-/restful-web-persistence-manager/onyx-web-server/target/
-/restful-web-persistence-manager/onyx-database-web-server/target/
 *.xcuserstate
